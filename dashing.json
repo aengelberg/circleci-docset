@@ -1,0 +1,16 @@
+{
+    "name": "CircleCI Config",
+    "package": "circleci-config",
+    "index": "circleci.com/docs/2.0/configuration-reference/index.html",
+    "icon32x32": "favicon.ico",
+    "externalURL": "https://circleci.com/",
+    "selectors": {
+        "h2 code": "Keyword",
+        "h3[id^=\"\"]": "Keyword",
+        "h4": "Keyword",
+        "h5": "Keyword"
+    },
+    "ignore": [
+        "Example for root Key"
+    ]
+}

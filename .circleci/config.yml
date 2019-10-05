@@ -1,0 +1,9 @@
+jobs:
+  build:
+    docker:
+      image: circleci/golang:1.13.1
+    steps:
+      - checkout
+      - run: go get -u github.com/technosophos/dashing
+      - run: wget --page-requisites https://circleci.com/docs/2.0/configuration-reference/
+      - run: dashing build -s circleci.com

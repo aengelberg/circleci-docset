@@ -1,7 +1,7 @@
 jobs:
   build:
     docker:
-      image: circleci/golang:1.13.1
+      - image: circleci/golang:1.13.1
     steps:
       - checkout
       - run: go get -u github.com/technosophos/dashing
